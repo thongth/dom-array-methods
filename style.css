@@ -19,6 +19,11 @@ body {
     width: 800px;
 }
 
+aside {
+    padding: 10px 20px;
+    width: 250px;
+}
+
 button {
     display: block;
     width: 100%;
@@ -42,6 +47,7 @@ button:focus {
 main {
     flex-grow: 1;
     padding: 10px 20px;
+    border-left: 1px solid #111;
 }
 
 h2 {
